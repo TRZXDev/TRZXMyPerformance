@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FB86E458CDB01D6DAE873AA /* libPods-TRZXMyPerformanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9805C15D1FFAB894F3CF128 /* libPods-TRZXMyPerformanceTests.a */; };
+		58BF1212C4A6606ED9879C33 /* libPods-TRZXMyPerformanceUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D085E8BBBA6DCADCD46B3 /* libPods-TRZXMyPerformanceUITests.a */; };
+		76B257EB1E652B9800AD0A53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B257EA1E652B9800AD0A53 /* main.m */; };
+		76B257EE1E652B9800AD0A53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B257ED1E652B9800AD0A53 /* AppDelegate.m */; };
+		76B257F11E652B9800AD0A53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B257F01E652B9800AD0A53 /* ViewController.m */; };
+		76B257F41E652B9800AD0A53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B257F21E652B9800AD0A53 /* Main.storyboard */; };
+		76B257F61E652B9800AD0A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B257F51E652B9800AD0A53 /* Assets.xcassets */; };
+		76B257F91E652B9800AD0A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B257F71E652B9800AD0A53 /* LaunchScreen.storyboard */; };
+		76B258041E652B9800AD0A53 /* TRZXMyPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B258031E652B9800AD0A53 /* TRZXMyPerformanceTests.m */; };
+		76B2580F1E652B9800AD0A53 /* TRZXMyPerformanceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2580E1E652B9800AD0A53 /* TRZXMyPerformanceUITests.m */; };
+		76B258211E652D9800AD0A53 /* TRZXMyPerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2581E1E652D9800AD0A53 /* TRZXMyPerformanceViewController.m */; };
+		76B258221E652D9800AD0A53 /* TRMyWorkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B258201E652D9800AD0A53 /* TRMyWorkDetailViewController.m */; };
+		76B258271E652DA900AD0A53 /* TRMyWorkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B258241E652DA900AD0A53 /* TRMyWorkModel.m */; };
+		76B258281E652DA900AD0A53 /* TRZXMyPerformanceViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B258261E652DA900AD0A53 /* TRZXMyPerformanceViewModel.m */; };
+		76B2583D1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2582D1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.m */; };
+		76B2583E1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B2582E1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.xib */; };
+		76B2583F1E652DCB00AD0A53 /* TRMyWorkDetailListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B258301E652DCB00AD0A53 /* TRMyWorkDetailListCell.m */; };
+		76B258401E652DCB00AD0A53 /* TRMyWorkDetailListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B258311E652DCB00AD0A53 /* TRMyWorkDetailListCell.xib */; };
+		76B258411E652DCB00AD0A53 /* TRMyWorkListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B258331E652DCB00AD0A53 /* TRMyWorkListCell.m */; };
+		76B258421E652DCB00AD0A53 /* TRMyWorkListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B258341E652DCB00AD0A53 /* TRMyWorkListCell.xib */; };
+		76B258431E652DCB00AD0A53 /* TRMyWorkUserHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B258361E652DCB00AD0A53 /* TRMyWorkUserHeadView.m */; };
+		76B258441E652DCB00AD0A53 /* TRMyWorkUserHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B258371E652DCB00AD0A53 /* TRMyWorkUserHeadView.xib */; };
+		76B258451E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B258391E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.m */; };
+		76B258461E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B2583A1E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.xib */; };
+		76B2584B1E653F1200AD0A53 /* CTMediator+MyPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2584A1E653F1200AD0A53 /* CTMediator+MyPerformance.m */; };
+		76B2584E1E653F2400AD0A53 /* Target_MyPerformance.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2584D1E653F2400AD0A53 /* Target_MyPerformance.m */; };
+		76B258501E65431100AD0A53 /* overallperformance.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B2584F1E65431100AD0A53 /* overallperformance.png */; };
+		76B258521E65431E00AD0A53 /* overallperdormance1.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B258511E65431E00AD0A53 /* overallperdormance1.png */; };
+		77808167DF32D2B423F89147 /* libPods-TRZXMyPerformance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA17BB6C8E7B875C53170D8 /* libPods-TRZXMyPerformance.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B258001E652B9800AD0A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B257DE1E652B9800AD0A53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B257E51E652B9800AD0A53;
+			remoteInfo = TRZXMyPerformance;
+		};
+		76B2580B1E652B9800AD0A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B257DE1E652B9800AD0A53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B257E51E652B9800AD0A53;
+			remoteInfo = TRZXMyPerformance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036488359139806318320DB8 /* Pods-TRZXMyPerformanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyPerformanceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyPerformanceUITests/Pods-TRZXMyPerformanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12D64CF648CB3352A34877EC /* Pods-TRZXMyPerformance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyPerformance.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyPerformance/Pods-TRZXMyPerformance.release.xcconfig"; sourceTree = "<group>"; };
+		2A0D085E8BBBA6DCADCD46B3 /* libPods-TRZXMyPerformanceUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyPerformanceUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E345483BCA03EA608A832CE /* Pods-TRZXMyPerformanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyPerformanceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyPerformanceUITests/Pods-TRZXMyPerformanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A365DEA83630AD3F743E233 /* Pods-TRZXMyPerformance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyPerformance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyPerformance/Pods-TRZXMyPerformance.debug.xcconfig"; sourceTree = "<group>"; };
+		76B257E61E652B9800AD0A53 /* TRZXMyPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMyPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B257EA1E652B9800AD0A53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76B257EC1E652B9800AD0A53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76B257ED1E652B9800AD0A53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76B257EF1E652B9800AD0A53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76B257F01E652B9800AD0A53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76B257F31E652B9800AD0A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76B257F51E652B9800AD0A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76B257F81E652B9800AD0A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76B257FA1E652B9800AD0A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B257FF1E652B9800AD0A53 /* TRZXMyPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXMyPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B258031E652B9800AD0A53 /* TRZXMyPerformanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXMyPerformanceTests.m; sourceTree = "<group>"; };
+		76B258051E652B9800AD0A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B2580A1E652B9800AD0A53 /* TRZXMyPerformanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXMyPerformanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B2580E1E652B9800AD0A53 /* TRZXMyPerformanceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXMyPerformanceUITests.m; sourceTree = "<group>"; };
+		76B258101E652B9800AD0A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B2581D1E652D9800AD0A53 /* TRZXMyPerformanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXMyPerformanceViewController.h; sourceTree = "<group>"; };
+		76B2581E1E652D9800AD0A53 /* TRZXMyPerformanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXMyPerformanceViewController.m; sourceTree = "<group>"; };
+		76B2581F1E652D9800AD0A53 /* TRMyWorkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyWorkDetailViewController.h; sourceTree = "<group>"; };
+		76B258201E652D9800AD0A53 /* TRMyWorkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyWorkDetailViewController.m; sourceTree = "<group>"; };
+		76B258231E652DA900AD0A53 /* TRMyWorkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyWorkModel.h; sourceTree = "<group>"; };
+		76B258241E652DA900AD0A53 /* TRMyWorkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyWorkModel.m; sourceTree = "<group>"; };
+		76B258251E652DA900AD0A53 /* TRZXMyPerformanceViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXMyPerformanceViewModel.h; sourceTree = "<group>"; };
+		76B258261E652DA900AD0A53 /* TRZXMyPerformanceViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXMyPerformanceViewModel.m; sourceTree = "<group>"; };
+		76B2582C1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyWorkDetailHeadView.h; sourceTree = "<group>"; };
+		76B2582D1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyWorkDetailHeadView.m; sourceTree = "<group>"; };
+		76B2582E1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMyWorkDetailHeadView.xib; sourceTree = "<group>"; };
+		76B2582F1E652DCB00AD0A53 /* TRMyWorkDetailListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyWorkDetailListCell.h; sourceTree = "<group>"; };
+		76B258301E652DCB00AD0A53 /* TRMyWorkDetailListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyWorkDetailListCell.m; sourceTree = "<group>"; };
+		76B258311E652DCB00AD0A53 /* TRMyWorkDetailListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMyWorkDetailListCell.xib; sourceTree = "<group>"; };
+		76B258321E652DCB00AD0A53 /* TRMyWorkListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyWorkListCell.h; sourceTree = "<group>"; };
+		76B258331E652DCB00AD0A53 /* TRMyWorkListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyWorkListCell.m; sourceTree = "<group>"; };
+		76B258341E652DCB00AD0A53 /* TRMyWorkListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMyWorkListCell.xib; sourceTree = "<group>"; };
+		76B258351E652DCB00AD0A53 /* TRMyWorkUserHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyWorkUserHeadView.h; sourceTree = "<group>"; };
+		76B258361E652DCB00AD0A53 /* TRMyWorkUserHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyWorkUserHeadView.m; sourceTree = "<group>"; };
+		76B258371E652DCB00AD0A53 /* TRMyWorkUserHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMyWorkUserHeadView.xib; sourceTree = "<group>"; };
+		76B258381E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRUserHeadCollectionViewCell.h; sourceTree = "<group>"; };
+		76B258391E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRUserHeadCollectionViewCell.m; sourceTree = "<group>"; };
+		76B2583A1E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRUserHeadCollectionViewCell.xib; sourceTree = "<group>"; };
+		76B258481E652F6D00AD0A53 /* MyPerformanceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPerformanceHeader.h; sourceTree = "<group>"; };
+		76B258491E653F1200AD0A53 /* CTMediator+MyPerformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+MyPerformance.h"; sourceTree = "<group>"; };
+		76B2584A1E653F1200AD0A53 /* CTMediator+MyPerformance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+MyPerformance.m"; sourceTree = "<group>"; };
+		76B2584C1E653F2400AD0A53 /* Target_MyPerformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_MyPerformance.h; sourceTree = "<group>"; };
+		76B2584D1E653F2400AD0A53 /* Target_MyPerformance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_MyPerformance.m; sourceTree = "<group>"; };
+		76B2584F1E65431100AD0A53 /* overallperformance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overallperformance.png; sourceTree = "<group>"; };
+		76B258511E65431E00AD0A53 /* overallperdormance1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overallperdormance1.png; sourceTree = "<group>"; };
+		D9805C15D1FFAB894F3CF128 /* libPods-TRZXMyPerformanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyPerformanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1A9A3635EB8E5D607E572F /* Pods-TRZXMyPerformanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyPerformanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyPerformanceTests/Pods-TRZXMyPerformanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		F97A2F3B91457984DDD9572B /* Pods-TRZXMyPerformanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyPerformanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyPerformanceTests/Pods-TRZXMyPerformanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA17BB6C8E7B875C53170D8 /* libPods-TRZXMyPerformance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMyPerformance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B257E31E652B9800AD0A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77808167DF32D2B423F89147 /* libPods-TRZXMyPerformance.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B257FC1E652B9800AD0A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB86E458CDB01D6DAE873AA /* libPods-TRZXMyPerformanceTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B258071E652B9800AD0A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BF1212C4A6606ED9879C33 /* libPods-TRZXMyPerformanceUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A2F2B79F504B46884C33B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA17BB6C8E7B875C53170D8 /* libPods-TRZXMyPerformance.a */,
+				D9805C15D1FFAB894F3CF128 /* libPods-TRZXMyPerformanceTests.a */,
+				2A0D085E8BBBA6DCADCD46B3 /* libPods-TRZXMyPerformanceUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76B257DD1E652B9800AD0A53 = {
+			isa = PBXGroup;
+			children = (
+				76B257E81E652B9800AD0A53 /* TRZXMyPerformance */,
+				76B258021E652B9800AD0A53 /* TRZXMyPerformanceTests */,
+				76B2580D1E652B9800AD0A53 /* TRZXMyPerformanceUITests */,
+				76B257E71E652B9800AD0A53 /* Products */,
+				C2BBFA6A1DB27C7155F0B3FB /* Pods */,
+				11A2F2B79F504B46884C33B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76B257E71E652B9800AD0A53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B257E61E652B9800AD0A53 /* TRZXMyPerformance.app */,
+				76B257FF1E652B9800AD0A53 /* TRZXMyPerformanceTests.xctest */,
+				76B2580A1E652B9800AD0A53 /* TRZXMyPerformanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B257E81E652B9800AD0A53 /* TRZXMyPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				76B257EC1E652B9800AD0A53 /* AppDelegate.h */,
+				76B257ED1E652B9800AD0A53 /* AppDelegate.m */,
+				76B257EF1E652B9800AD0A53 /* ViewController.h */,
+				76B257F01E652B9800AD0A53 /* ViewController.m */,
+				76B2581C1E652D1500AD0A53 /* TRZXMyPerformance */,
+				76B257F21E652B9800AD0A53 /* Main.storyboard */,
+				76B257F51E652B9800AD0A53 /* Assets.xcassets */,
+				76B257F71E652B9800AD0A53 /* LaunchScreen.storyboard */,
+				76B257FA1E652B9800AD0A53 /* Info.plist */,
+				76B257E91E652B9800AD0A53 /* Supporting Files */,
+			);
+			path = TRZXMyPerformance;
+			sourceTree = "<group>";
+		};
+		76B257E91E652B9800AD0A53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B257EA1E652B9800AD0A53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B258021E652B9800AD0A53 /* TRZXMyPerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B258031E652B9800AD0A53 /* TRZXMyPerformanceTests.m */,
+				76B258051E652B9800AD0A53 /* Info.plist */,
+			);
+			path = TRZXMyPerformanceTests;
+			sourceTree = "<group>";
+		};
+		76B2580D1E652B9800AD0A53 /* TRZXMyPerformanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76B2580E1E652B9800AD0A53 /* TRZXMyPerformanceUITests.m */,
+				76B258101E652B9800AD0A53 /* Info.plist */,
+			);
+			path = TRZXMyPerformanceUITests;
+			sourceTree = "<group>";
+		};
+		76B2581C1E652D1500AD0A53 /* TRZXMyPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				76B258511E65431E00AD0A53 /* overallperdormance1.png */,
+				76B2584F1E65431100AD0A53 /* overallperformance.png */,
+				76B258481E652F6D00AD0A53 /* MyPerformanceHeader.h */,
+				76B2581D1E652D9800AD0A53 /* TRZXMyPerformanceViewController.h */,
+				76B2581E1E652D9800AD0A53 /* TRZXMyPerformanceViewController.m */,
+				76B2581F1E652D9800AD0A53 /* TRMyWorkDetailViewController.h */,
+				76B258201E652D9800AD0A53 /* TRMyWorkDetailViewController.m */,
+				76B258231E652DA900AD0A53 /* TRMyWorkModel.h */,
+				76B258241E652DA900AD0A53 /* TRMyWorkModel.m */,
+				76B258251E652DA900AD0A53 /* TRZXMyPerformanceViewModel.h */,
+				76B258261E652DA900AD0A53 /* TRZXMyPerformanceViewModel.m */,
+				76B2582C1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.h */,
+				76B2582D1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.m */,
+				76B2582E1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.xib */,
+				76B2582F1E652DCB00AD0A53 /* TRMyWorkDetailListCell.h */,
+				76B258301E652DCB00AD0A53 /* TRMyWorkDetailListCell.m */,
+				76B258311E652DCB00AD0A53 /* TRMyWorkDetailListCell.xib */,
+				76B258321E652DCB00AD0A53 /* TRMyWorkListCell.h */,
+				76B258331E652DCB00AD0A53 /* TRMyWorkListCell.m */,
+				76B258341E652DCB00AD0A53 /* TRMyWorkListCell.xib */,
+				76B258351E652DCB00AD0A53 /* TRMyWorkUserHeadView.h */,
+				76B258361E652DCB00AD0A53 /* TRMyWorkUserHeadView.m */,
+				76B258371E652DCB00AD0A53 /* TRMyWorkUserHeadView.xib */,
+				76B258381E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.h */,
+				76B258391E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.m */,
+				76B2583A1E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.xib */,
+				76B258491E653F1200AD0A53 /* CTMediator+MyPerformance.h */,
+				76B2584A1E653F1200AD0A53 /* CTMediator+MyPerformance.m */,
+				76B2584C1E653F2400AD0A53 /* Target_MyPerformance.h */,
+				76B2584D1E653F2400AD0A53 /* Target_MyPerformance.m */,
+			);
+			path = TRZXMyPerformance;
+			sourceTree = "<group>";
+		};
+		C2BBFA6A1DB27C7155F0B3FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A365DEA83630AD3F743E233 /* Pods-TRZXMyPerformance.debug.xcconfig */,
+				12D64CF648CB3352A34877EC /* Pods-TRZXMyPerformance.release.xcconfig */,
+				F97A2F3B91457984DDD9572B /* Pods-TRZXMyPerformanceTests.debug.xcconfig */,
+				ED1A9A3635EB8E5D607E572F /* Pods-TRZXMyPerformanceTests.release.xcconfig */,
+				3E345483BCA03EA608A832CE /* Pods-TRZXMyPerformanceUITests.debug.xcconfig */,
+				036488359139806318320DB8 /* Pods-TRZXMyPerformanceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B257E51E652B9800AD0A53 /* TRZXMyPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B258131E652B9800AD0A53 /* Build configuration list for PBXNativeTarget "TRZXMyPerformance" */;
+			buildPhases = (
+				16CB36E2EEF1D54F620EB072 /* [CP] Check Pods Manifest.lock */,
+				76B257E21E652B9800AD0A53 /* Sources */,
+				76B257E31E652B9800AD0A53 /* Frameworks */,
+				76B257E41E652B9800AD0A53 /* Resources */,
+				9CA31EF79E025AC85FD092B8 /* [CP] Embed Pods Frameworks */,
+				18F3DB22F439EB1514DEBC9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXMyPerformance;
+			productName = TRZXMyPerformance;
+			productReference = 76B257E61E652B9800AD0A53 /* TRZXMyPerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B257FE1E652B9800AD0A53 /* TRZXMyPerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B258161E652B9800AD0A53 /* Build configuration list for PBXNativeTarget "TRZXMyPerformanceTests" */;
+			buildPhases = (
+				595D9F62EA755AF48D93D2BB /* [CP] Check Pods Manifest.lock */,
+				76B257FB1E652B9800AD0A53 /* Sources */,
+				76B257FC1E652B9800AD0A53 /* Frameworks */,
+				76B257FD1E652B9800AD0A53 /* Resources */,
+				A52B0CF38245D6A8FEEBD731 /* [CP] Embed Pods Frameworks */,
+				223D10129A58B600D804B95C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B258011E652B9800AD0A53 /* PBXTargetDependency */,
+			);
+			name = TRZXMyPerformanceTests;
+			productName = TRZXMyPerformanceTests;
+			productReference = 76B257FF1E652B9800AD0A53 /* TRZXMyPerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76B258091E652B9800AD0A53 /* TRZXMyPerformanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B258191E652B9800AD0A53 /* Build configuration list for PBXNativeTarget "TRZXMyPerformanceUITests" */;
+			buildPhases = (
+				FC6D6B9E6CF1FEFEE12E30B3 /* [CP] Check Pods Manifest.lock */,
+				76B258061E652B9800AD0A53 /* Sources */,
+				76B258071E652B9800AD0A53 /* Frameworks */,
+				76B258081E652B9800AD0A53 /* Resources */,
+				EBAB984683778286C89630F8 /* [CP] Embed Pods Frameworks */,
+				5C6B674D50AF773330946CAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B2580C1E652B9800AD0A53 /* PBXTargetDependency */,
+			);
+			name = TRZXMyPerformanceUITests;
+			productName = TRZXMyPerformanceUITests;
+			productReference = 76B2580A1E652B9800AD0A53 /* TRZXMyPerformanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B257DE1E652B9800AD0A53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rhino;
+				TargetAttributes = {
+					76B257E51E652B9800AD0A53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					76B257FE1E652B9800AD0A53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76B257E51E652B9800AD0A53;
+					};
+					76B258091E652B9800AD0A53 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76B257E51E652B9800AD0A53;
+					};
+				};
+			};
+			buildConfigurationList = 76B257E11E652B9800AD0A53 /* Build configuration list for PBXProject "TRZXMyPerformance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76B257DD1E652B9800AD0A53;
+			productRefGroup = 76B257E71E652B9800AD0A53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B257E51E652B9800AD0A53 /* TRZXMyPerformance */,
+				76B257FE1E652B9800AD0A53 /* TRZXMyPerformanceTests */,
+				76B258091E652B9800AD0A53 /* TRZXMyPerformanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B257E41E652B9800AD0A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B258421E652DCB00AD0A53 /* TRMyWorkListCell.xib in Resources */,
+				76B258461E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.xib in Resources */,
+				76B258401E652DCB00AD0A53 /* TRMyWorkDetailListCell.xib in Resources */,
+				76B2583E1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.xib in Resources */,
+				76B258441E652DCB00AD0A53 /* TRMyWorkUserHeadView.xib in Resources */,
+				76B257F91E652B9800AD0A53 /* LaunchScreen.storyboard in Resources */,
+				76B258521E65431E00AD0A53 /* overallperdormance1.png in Resources */,
+				76B257F61E652B9800AD0A53 /* Assets.xcassets in Resources */,
+				76B258501E65431100AD0A53 /* overallperformance.png in Resources */,
+				76B257F41E652B9800AD0A53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B257FD1E652B9800AD0A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B258081E652B9800AD0A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16CB36E2EEF1D54F620EB072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18F3DB22F439EB1514DEBC9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyPerformance/Pods-TRZXMyPerformance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		223D10129A58B600D804B95C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyPerformanceTests/Pods-TRZXMyPerformanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		595D9F62EA755AF48D93D2BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6B674D50AF773330946CAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyPerformanceUITests/Pods-TRZXMyPerformanceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA31EF79E025AC85FD092B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyPerformance/Pods-TRZXMyPerformance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A52B0CF38245D6A8FEEBD731 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyPerformanceTests/Pods-TRZXMyPerformanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAB984683778286C89630F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyPerformanceUITests/Pods-TRZXMyPerformanceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6D6B9E6CF1FEFEE12E30B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B257E21E652B9800AD0A53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B2583D1E652DCB00AD0A53 /* TRMyWorkDetailHeadView.m in Sources */,
+				76B258221E652D9800AD0A53 /* TRMyWorkDetailViewController.m in Sources */,
+				76B258451E652DCB00AD0A53 /* TRUserHeadCollectionViewCell.m in Sources */,
+				76B2583F1E652DCB00AD0A53 /* TRMyWorkDetailListCell.m in Sources */,
+				76B258431E652DCB00AD0A53 /* TRMyWorkUserHeadView.m in Sources */,
+				76B2584B1E653F1200AD0A53 /* CTMediator+MyPerformance.m in Sources */,
+				76B257F11E652B9800AD0A53 /* ViewController.m in Sources */,
+				76B258271E652DA900AD0A53 /* TRMyWorkModel.m in Sources */,
+				76B258411E652DCB00AD0A53 /* TRMyWorkListCell.m in Sources */,
+				76B257EE1E652B9800AD0A53 /* AppDelegate.m in Sources */,
+				76B257EB1E652B9800AD0A53 /* main.m in Sources */,
+				76B258211E652D9800AD0A53 /* TRZXMyPerformanceViewController.m in Sources */,
+				76B258281E652DA900AD0A53 /* TRZXMyPerformanceViewModel.m in Sources */,
+				76B2584E1E653F2400AD0A53 /* Target_MyPerformance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B257FB1E652B9800AD0A53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B258041E652B9800AD0A53 /* TRZXMyPerformanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B258061E652B9800AD0A53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B2580F1E652B9800AD0A53 /* TRZXMyPerformanceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B258011E652B9800AD0A53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B257E51E652B9800AD0A53 /* TRZXMyPerformance */;
+			targetProxy = 76B258001E652B9800AD0A53 /* PBXContainerItemProxy */;
+		};
+		76B2580C1E652B9800AD0A53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B257E51E652B9800AD0A53 /* TRZXMyPerformance */;
+			targetProxy = 76B2580B1E652B9800AD0A53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76B257F21E652B9800AD0A53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B257F31E652B9800AD0A53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76B257F71E652B9800AD0A53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B257F81E652B9800AD0A53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76B258111E652B9800AD0A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76B258121E652B9800AD0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B258141E652B9800AD0A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A365DEA83630AD3F743E233 /* Pods-TRZXMyPerformance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRZXMyPerformance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76B258151E652B9800AD0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D64CF648CB3352A34877EC /* Pods-TRZXMyPerformance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRZXMyPerformance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76B258171E652B9800AD0A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97A2F3B91457984DDD9572B /* Pods-TRZXMyPerformanceTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TRZXMyPerformanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZXMyPerformance.app/TRZXMyPerformance";
+			};
+			name = Debug;
+		};
+		76B258181E652B9800AD0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1A9A3635EB8E5D607E572F /* Pods-TRZXMyPerformanceTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TRZXMyPerformanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZXMyPerformance.app/TRZXMyPerformance";
+			};
+			name = Release;
+		};
+		76B2581A1E652B9800AD0A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E345483BCA03EA608A832CE /* Pods-TRZXMyPerformanceUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TRZXMyPerformanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyPerformanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRZXMyPerformance;
+			};
+			name = Debug;
+		};
+		76B2581B1E652B9800AD0A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036488359139806318320DB8 /* Pods-TRZXMyPerformanceUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TRZXMyPerformanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXMyPerformanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRZXMyPerformance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B257E11E652B9800AD0A53 /* Build configuration list for PBXProject "TRZXMyPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B258111E652B9800AD0A53 /* Debug */,
+				76B258121E652B9800AD0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B258131E652B9800AD0A53 /* Build configuration list for PBXNativeTarget "TRZXMyPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B258141E652B9800AD0A53 /* Debug */,
+				76B258151E652B9800AD0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B258161E652B9800AD0A53 /* Build configuration list for PBXNativeTarget "TRZXMyPerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B258171E652B9800AD0A53 /* Debug */,
+				76B258181E652B9800AD0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B258191E652B9800AD0A53 /* Build configuration list for PBXNativeTarget "TRZXMyPerformanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B2581A1E652B9800AD0A53 /* Debug */,
+				76B2581B1E652B9800AD0A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76B257DE1E652B9800AD0A53 /* Project object */;
+}
